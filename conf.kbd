@@ -14,6 +14,7 @@
 )
 
 (defsrc
+    3    4    5    6    7    8
     '    ,    .    p    y    f    g    c    r    l
     a    o    e    u    i    d    h    t    n    s
     ;    q    j    k    x    b    m    w    v    z
@@ -41,6 +42,7 @@
 )
 
 (deflayer homerowmods
+    \(       {        lbrc    rbrc    }        \)
     '        ,        @sym_num        p        y        f        g        c        r        l
     @met_a   @alt_o   @ctl_e   @sft_u   @sym_i   @sym_d   @sft_h   @ctl_t   @alt_n   @met_s
     ;        q        j        k        x        b        m        w        v        z
@@ -48,6 +50,7 @@
 )
 
 (deflayer symbol
+    \(  {   [   ]   }   \)
     '   ,   ^   |   #   f   g   /   !   @
     $   -   +   *   &   %   :   \   =   ?
     ;   #   tab ~   x   b   <   >   `   z
@@ -55,6 +58,7 @@
 )
 
 (deflayer number
+    \(  {   [   ]   }   \)
     '   ,   ^   |   #   f   7   8   9   @
     $   -   +   *   &   %   4   5   6   ?
     ;   #   tab ~   x   b   1   2   3   z
